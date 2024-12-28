@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 5
   affectionDialoguePool: []
-  baseDialoguePool: []
+  baseDialoguePool:
+  - {fileID: 11400000, guid: e51fc0fa3ceaede48a43d3b7b63e71f6, type: 2}
   activeDialoguePool: []
   usedDialoguePool: []

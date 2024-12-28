@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6ddec3de1b5b64da8b24d7fd0c7657, type: 3}
+  m_Name: dialogue_do_1
+  m_EditorClassIdentifier: 
+  priority: 10
+  dialogues:
+  - dialogue: Ca va Dorian ?
+    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
+  - dialogue: "Pas de soucis, contrairement \xE0 toi... Mon pauvre, bon courage \xE7a
+      a l'air dur."
+    speaker: {fileID: 11400000, guid: e9fc9e16d70477349b2dae38fd73c4c4, type: 2}
+  - dialogue: "C'est vraiment le cas. J'ose parler \xE0 personne tellement c'est
+      la merde."
+    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
+  - dialogue: Je te le fais pas dire. On y est jusqu'au cou.
+    speaker: {fileID: 11400000, guid: e9fc9e16d70477349b2dae38fd73c4c4, type: 2}
+  dialogueEvent:
+    m_PersistentCalls:
+      m_Calls: []

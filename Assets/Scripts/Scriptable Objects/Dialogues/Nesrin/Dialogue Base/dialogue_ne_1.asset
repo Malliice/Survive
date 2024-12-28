@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6ddec3de1b5b64da8b24d7fd0c7657, type: 3}
+  m_Name: dialogue_ne_1
+  m_EditorClassIdentifier: 
+  priority: 10
+  dialogues:
+  - dialogue: Nesrin...
+    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
+  - dialogue: Taro aurait fait mieux que toi, tu t'en rends compte ?
+    speaker: {fileID: 11400000, guid: 42c7a74fcdbb22b4494ecbdeb1d00265, type: 2}
+  - dialogue: Je sais...
+    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
+  - dialogue: Cesse de te morfondre, et continue. Nous avons besoin d'un nouveau
+      chef, pas d'une loque humaine.
+    speaker: {fileID: 11400000, guid: 42c7a74fcdbb22b4494ecbdeb1d00265, type: 2}
+  dialogueEvent:
+    m_PersistentCalls:
+      m_Calls: []

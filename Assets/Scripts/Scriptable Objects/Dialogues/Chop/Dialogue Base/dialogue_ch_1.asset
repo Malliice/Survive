@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6ddec3de1b5b64da8b24d7fd0c7657, type: 3}
+  m_Name: dialogue_ch_1
+  m_EditorClassIdentifier: 
+  priority: 10
+  dialogues:
+  - dialogue: "Tu sais, j'ai toujours su que tu avais quelque chose de sp\xE9cial...
+      Ca ne m'\xE9tonne pas que tu sois le nouveau chef du camp."
+    speaker: {fileID: 11400000, guid: e0e01c742ce2e9a47bf1c37d1fd785e9, type: 2}
+  - dialogue: Quoi ? Vraiment ?
+    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
+  - dialogue: "Bah non, mon couillon ! Clairement pas ! Vraiment je comprends pas,
+      mais bon, \xE7a vous regarde vous, pas moi. Tant que les affaires tournent..."
+    speaker: {fileID: 11400000, guid: e0e01c742ce2e9a47bf1c37d1fd785e9, type: 2}
+  dialogueEvent:
+    m_PersistentCalls:
+      m_Calls: []

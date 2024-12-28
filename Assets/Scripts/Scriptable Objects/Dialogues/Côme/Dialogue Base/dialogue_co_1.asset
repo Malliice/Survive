@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6ddec3de1b5b64da8b24d7fd0c7657, type: 3}
+  m_Name: dialogue_co_1
+  m_EditorClassIdentifier: 
+  priority: 10
+  dialogues:
+  - dialogue: "Alors, la premi\xE8re exp\xE9dition ? C'\xE9tait comment ? T'as r\xE9ussi
+      \xE0 t'y habituer ? Prends ton temps surtout."
+    speaker: {fileID: 11400000, guid: a805e22ed63469a43962e11911ef1315, type: 2}
+  - dialogue: "Euh, je sais pas encore, laisse-moi un peu de temps pour m'y habituer
+      s'il te pla\xEEt."
+    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
+  - dialogue: "Oui oui, bien s\xFBr ! Comme j'ai dit, prends ton temps. C'est pas
+      comme si on avait pas beaucoup de temps avant de mourir de famine..."
+    speaker: {fileID: 11400000, guid: a805e22ed63469a43962e11911ef1315, type: 2}
+  dialogueEvent:
+    m_PersistentCalls:
+      m_Calls: []
