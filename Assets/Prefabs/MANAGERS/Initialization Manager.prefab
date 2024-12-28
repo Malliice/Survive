@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &49069657458912467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4789337354782135004}
+  - component: {fileID: 1131717484414496287}
+  m_Layer: 0
+  m_Name: Initialization Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4789337354782135004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49069657458912467}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.077653, y: 5.117592, z: -22.489855}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1131717484414496287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49069657458912467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885d7adb311e1394581f617681fd6359, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerData: {fileID: 11400000, guid: de58f6c17c1c74f48a2fce90ea3b8058, type: 2}
+  activeNpcData:
+  - {fileID: 11400000, guid: 78727f81a3dbf1241bf17f995d5fd043, type: 2}
+  - {fileID: 11400000, guid: 1e5371e5a04f20d4398712878d155270, type: 2}
+  - {fileID: 11400000, guid: cf95297b3c5e8b247999d87ab9672ea6, type: 2}
+  - {fileID: 11400000, guid: 734a168ef0744a646b7c18228e0069c5, type: 2}
+  - {fileID: 11400000, guid: 2ead4dfc9f1768641b14a1eec4ab7fee, type: 2}
+  - {fileID: 11400000, guid: a8f4967c0a3fc5f4f8660bd2414f6312, type: 2}
+  defaultNpcData:
+  - {fileID: 11400000, guid: 0a496dd549d9a47469e94dd1e953b9fd, type: 2}
+  - {fileID: 11400000, guid: 51f18b99591d15c46aaac98a1c551d08, type: 2}
+  - {fileID: 11400000, guid: 9042e2389f4379845ab8990ef424b2c8, type: 2}
+  - {fileID: 11400000, guid: 3dc5271f3bf9bfd4c99889fcaac71e3e, type: 2}
+  - {fileID: 11400000, guid: a8791cbfda5bf79479b630fe8abb5fbc, type: 2}
+  - {fileID: 11400000, guid: 7bade0b689dd000408c610e9e3f9aebc, type: 2}
+  survivalWorldData: {fileID: 11400000, guid: 42dbc02307dfbfe4e94d34a54458e2cc, type: 2}

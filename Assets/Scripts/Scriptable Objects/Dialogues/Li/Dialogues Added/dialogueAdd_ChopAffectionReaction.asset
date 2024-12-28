@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6ddec3de1b5b64da8b24d7fd0c7657, type: 3}
+  m_Name: dialogueAdd_ChopAffectionReaction
+  m_EditorClassIdentifier: 
+  priority: 1
+  dialogues:
+  - dialogue: "Tu as donn\xE9 un truc \xE0 Chop et pas \xE0 moi ?!"
+    speaker: {fileID: 11400000, guid: 1b26fadcd20bfae4d88cc98a7a39b402, type: 2}
+  - dialogue: "Tu passes ton temps \xE0 me cracher dessus ! Bien s\xFBr que je vais
+      pas te donner de cadeaux."
+    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
+  - dialogue: Va te faire foutre.
+    speaker: {fileID: 11400000, guid: 1b26fadcd20bfae4d88cc98a7a39b402, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a290619099f1d54ca253144f4f06dce, type: 3}
+  m_Name: npcDefault_Line
+  m_EditorClassIdentifier: 
+  health: 5
+  affectionDialoguePool:
+  - {fileID: 11400000, guid: 1a570c57338ae4049aa5ae1542071118, type: 2}
+  baseDialoguePool:
+  - {fileID: 11400000, guid: 04a2dc76a20eb954fb260953866f9989, type: 2}
+  - {fileID: 11400000, guid: 4fadc5645a43c3f418a2375483d01037, type: 2}
+  - {fileID: 11400000, guid: c5f6b0b117b679c4893ebde6fa9619d8, type: 2}
+  activeDialoguePool: []
+  usedDialoguePool: []

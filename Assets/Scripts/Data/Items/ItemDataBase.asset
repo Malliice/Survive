@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43d3fa572392f2a47a95370f16fb5fe1, type: 3}
+  m_Name: ItemDataBase
+  m_EditorClassIdentifier: 
+  items:
+  - itemName: Food
+    itemSprite: {fileID: 21300000, guid: b06a1b9e92432aa40a9eed9adce3a90f, type: 3}
+    itemDamages: 0
+    resourcesToCraft: []
+    prefabToSpawnIfBuilding: {fileID: 0}
+    craftEvent: {fileID: 0}
+    craftLevel: 0
+    itemType: 1
+  - itemName: Stick
+    itemSprite: {fileID: 21300000, guid: 936d8a2c36e16544eae83ef1f96793e5, type: 3}
+    itemDamages: 0
+    resourcesToCraft: []
+    prefabToSpawnIfBuilding: {fileID: 0}
+    craftEvent: {fileID: 0}
+    craftLevel: 0
+    itemType: 1
+  - itemName: Silex
+    itemSprite: {fileID: 21300000, guid: 98e0f8a0383a2af40bb497ab441dbf0f, type: 3}
+    itemDamages: 0
+    resourcesToCraft: []
+    prefabToSpawnIfBuilding: {fileID: 0}
+    craftEvent: {fileID: 0}
+    craftLevel: 0
+    itemType: 1
+  - itemName: Wood
+    itemSprite: {fileID: 21300000, guid: 110b6675546aca248be790fb0202d486, type: 3}
+    itemDamages: 0
+    resourcesToCraft: []
+    prefabToSpawnIfBuilding: {fileID: 0}
+    craftEvent: {fileID: 0}
+    craftLevel: 0
+    itemType: 1
+  - itemName: Stone
+    itemSprite: {fileID: 21300000, guid: ca7d94170a4c055459ee21d3a630665c, type: 3}
+    itemDamages: 0
+    resourcesToCraft: []
+    prefabToSpawnIfBuilding: {fileID: 0}
+    craftEvent: {fileID: 0}
+    craftLevel: 0
+    itemType: 1
+  - itemName: Axe
+    itemSprite: {fileID: 21300000, guid: 183331ad68f96894083f56d96e7acc43, type: 3}
+    itemDamages: 2
+    resourcesToCraft:
+    - resourceId: 1
+      resourceCost: 2
+    - resourceId: 2
+      resourceCost: 1
+    prefabToSpawnIfBuilding: {fileID: 0}
+    craftEvent: {fileID: 0}
+    craftLevel: 0
+    itemType: 2
+  - itemName: Pickaxe
+    itemSprite: {fileID: 21300000, guid: fd6f322a86da3234ca3de15d2bc8e205, type: 3}
+    itemDamages: 1
+    resourcesToCraft:
+    - resourceId: 1
+      resourceCost: 1
+    - resourceId: 2
+      resourceCost: 2
+    prefabToSpawnIfBuilding: {fileID: 0}
+    craftEvent: {fileID: 0}
+    craftLevel: 0
+    itemType: 2
+  - itemName: Crafting Table
+    itemSprite: {fileID: 21300000, guid: 038367dfd6c08e147b4d0d2b7f7c1a6a, type: 3}
+    itemDamages: 0
+    resourcesToCraft:
+    - resourceId: 1
+      resourceCost: 1
+    prefabToSpawnIfBuilding: {fileID: 864022987022484543, guid: cc41a23bb2d9c27419eecedcb33f7c35, type: 3}
+    craftEvent: {fileID: 0}
+    craftLevel: 0
+    itemType: 3
+  - itemName: Cornucopia
+    itemSprite: {fileID: 21300000, guid: 3066de36c6f3e604dad0a15c38ec5c3f, type: 3}
+    itemDamages: 0
+    resourcesToCraft:
+    - resourceId: 1
+      resourceCost: 1
+    - resourceId: 0
+      resourceCost: 1
+    - resourceId: 2
+      resourceCost: 1
+    prefabToSpawnIfBuilding: {fileID: 864022987022484543, guid: cc41a23bb2d9c27419eecedcb33f7c35, type: 3}
+    craftEvent: {fileID: 11400000, guid: 9aac1f8ccaf377a458c6a91a1d1099e3, type: 2}
+    craftLevel: 2
+    itemType: 4
+  - itemName: Gift
+    itemSprite: {fileID: 21300000, guid: b4be42a64b4c92d429175388ada1312e, type: 3}
+    itemDamages: 0
+    resourcesToCraft:
+    - resourceId: 0
+      resourceCost: 3
+    prefabToSpawnIfBuilding: {fileID: 0}
+    craftEvent: {fileID: 0}
+    craftLevel: 1
+    itemType: 0
+  - itemName: Magic Table
+    itemSprite: {fileID: 21300000, guid: 8ed841d441e11ce4eb92361611475fb6, type: 3}
+    itemDamages: 0
+    resourcesToCraft:
+    - resourceId: 1
+      resourceCost: 3
+    - resourceId: 2
+      resourceCost: 3
+    prefabToSpawnIfBuilding: {fileID: 864022987022484543, guid: d167b9550d0ec8e4b823a57f3af47100, type: 3}
+    craftEvent: {fileID: 0}
+    craftLevel: 1
+    itemType: 3
