@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de6ddec3de1b5b64da8b24d7fd0c7657, type: 3}
-  m_Name: dialogue_li_3
+  m_Name: dialogueAdd_ChopAffectionReaction
   m_EditorClassIdentifier: 
-  priority: 0
-  dialogues:
-  - dialogue: "Pourquoi tu me d\xE9testes ?"
-    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
-  - dialogue: "Tu m'as pourrie la vie, je devrais \xEAtre \xE0 ta place."
-    speaker: {fileID: 11400000, guid: 1b26fadcd20bfae4d88cc98a7a39b402, type: 2}
+  inkJSONAsset: {fileID: 4900000, guid: c28ecc64c99681343aa93893eeaa1275, type: 3}
+  speakers:
+  - {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
+  - {fileID: 11400000, guid: 1b26fadcd20bfae4d88cc98a7a39b402, type: 2}
+  priority: 1
   dialogueEvent:
     m_PersistentCalls:
       m_Calls: []

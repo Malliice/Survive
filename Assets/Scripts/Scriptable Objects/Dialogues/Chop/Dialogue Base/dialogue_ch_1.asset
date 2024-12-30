@@ -12,16 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de6ddec3de1b5b64da8b24d7fd0c7657, type: 3}
   m_Name: dialogue_ch_1
   m_EditorClassIdentifier: 
+  inkJSONAsset: {fileID: 4900000, guid: 5008018f319292347936d8ca001fa26c, type: 3}
+  speakers:
+  - {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
+  - {fileID: 11400000, guid: e0e01c742ce2e9a47bf1c37d1fd785e9, type: 2}
   priority: 10
-  dialogues:
-  - dialogue: "Tu sais, j'ai toujours su que tu avais quelque chose de sp\xE9cial...
-      Ca ne m'\xE9tonne pas que tu sois le nouveau chef du camp."
-    speaker: {fileID: 11400000, guid: e0e01c742ce2e9a47bf1c37d1fd785e9, type: 2}
-  - dialogue: Quoi ? Vraiment ?
-    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
-  - dialogue: "Bah non, mon couillon ! Clairement pas ! Vraiment je comprends pas,
-      mais bon, \xE7a vous regarde vous, pas moi. Tant que les affaires tournent..."
-    speaker: {fileID: 11400000, guid: e0e01c742ce2e9a47bf1c37d1fd785e9, type: 2}
   dialogueEvent:
     m_PersistentCalls:
       m_Calls: []

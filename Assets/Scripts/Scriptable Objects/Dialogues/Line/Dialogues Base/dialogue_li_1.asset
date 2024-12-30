@@ -12,14 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de6ddec3de1b5b64da8b24d7fd0c7657, type: 3}
   m_Name: dialogue_li_1
   m_EditorClassIdentifier: 
+  inkJSONAsset: {fileID: 4900000, guid: ce796d1beee831d46bc25a3125dbbe80, type: 3}
+  speakers:
+  - {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
+  - {fileID: 11400000, guid: 1b26fadcd20bfae4d88cc98a7a39b402, type: 2}
   priority: 10
-  dialogues:
-  - dialogue: "Je comprendrais jamais pourquoi c'est toi qu'a \xE9t\xE9 choisi."
-    speaker: {fileID: 11400000, guid: 1b26fadcd20bfae4d88cc98a7a39b402, type: 2}
-  - dialogue: Je sais pas non plus !
-    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
-  - dialogue: "C'est bien le probl\xE8me, enfoir\xE9."
-    speaker: {fileID: 11400000, guid: 1b26fadcd20bfae4d88cc98a7a39b402, type: 2}
   dialogueEvent:
     m_PersistentCalls:
       m_Calls: []

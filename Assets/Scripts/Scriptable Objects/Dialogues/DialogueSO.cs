@@ -7,14 +7,11 @@ using UnityEngine.Events;
 [CreateAssetMenu(menuName = "Scriptable Objects/Dialogue", fileName = "dialogue_")]
 public class DialogueSO : ScriptableObject
 {
-    [Serializable]
-    public struct DialogueLine
-    {
-        [TextArea] public string dialogue;
-        public SpeakerData speaker;
-    }
+    public TextAsset inkJSONAsset = null;
+    
+    public List<SpeakerData> speakers;
 
     public int priority;
-    public List<DialogueLine> dialogues;
+    
     public UnityEvent dialogueEvent;
 }

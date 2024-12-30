@@ -12,17 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de6ddec3de1b5b64da8b24d7fd0c7657, type: 3}
   m_Name: dialogue_ne_1
   m_EditorClassIdentifier: 
+  inkJSONAsset: {fileID: 4900000, guid: 69efd4bef1e428b42a3235bd42dd49ca, type: 3}
+  speakers:
+  - {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
+  - {fileID: 11400000, guid: 42c7a74fcdbb22b4494ecbdeb1d00265, type: 2}
   priority: 10
-  dialogues:
-  - dialogue: Nesrin...
-    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
-  - dialogue: Taro aurait fait mieux que toi, tu t'en rends compte ?
-    speaker: {fileID: 11400000, guid: 42c7a74fcdbb22b4494ecbdeb1d00265, type: 2}
-  - dialogue: Je sais...
-    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
-  - dialogue: Cesse de te morfondre, et continue. Nous avons besoin d'un nouveau
-      chef, pas d'une loque humaine.
-    speaker: {fileID: 11400000, guid: 42c7a74fcdbb22b4494ecbdeb1d00265, type: 2}
   dialogueEvent:
     m_PersistentCalls:
       m_Calls: []

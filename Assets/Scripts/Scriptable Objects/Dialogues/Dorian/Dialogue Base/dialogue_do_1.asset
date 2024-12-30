@@ -12,18 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de6ddec3de1b5b64da8b24d7fd0c7657, type: 3}
   m_Name: dialogue_do_1
   m_EditorClassIdentifier: 
+  inkJSONAsset: {fileID: 4900000, guid: 8a006b29918c43e409fee27c889f9f61, type: 3}
+  speakers:
+  - {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
+  - {fileID: 11400000, guid: e9fc9e16d70477349b2dae38fd73c4c4, type: 2}
   priority: 10
-  dialogues:
-  - dialogue: Ca va Dorian ?
-    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
-  - dialogue: "Pas de soucis, contrairement \xE0 toi... Mon pauvre, bon courage \xE7a
-      a l'air dur."
-    speaker: {fileID: 11400000, guid: e9fc9e16d70477349b2dae38fd73c4c4, type: 2}
-  - dialogue: "C'est vraiment le cas. J'ose parler \xE0 personne tellement c'est
-      la merde."
-    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
-  - dialogue: Je te le fais pas dire. On y est jusqu'au cou.
-    speaker: {fileID: 11400000, guid: e9fc9e16d70477349b2dae38fd73c4c4, type: 2}
   dialogueEvent:
     m_PersistentCalls:
       m_Calls: []

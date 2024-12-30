@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de6ddec3de1b5b64da8b24d7fd0c7657, type: 3}
   m_Name: dialogueAdd_silexPickup
   m_EditorClassIdentifier: 
+  inkJSONAsset: {fileID: 4900000, guid: de58b8ec5439f8444bcb11c8159e9f6e, type: 3}
+  speakers:
+  - {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
+  - {fileID: 11400000, guid: 1b26fadcd20bfae4d88cc98a7a39b402, type: 2}
   priority: 1
-  dialogues:
-  - dialogue: "Tu as ramass\xE9 du silex."
-    speaker: {fileID: 11400000, guid: 1b26fadcd20bfae4d88cc98a7a39b402, type: 2}
-  - dialogue: Et alors ?
-    speaker: {fileID: 11400000, guid: 1fa1cdefcfaf4994db725a2bbcdf6ad8, type: 2}
-  - dialogue: Va te faire foutre.
-    speaker: {fileID: 11400000, guid: 1b26fadcd20bfae4d88cc98a7a39b402, type: 2}
+  dialogueEvent:
+    m_PersistentCalls:
+      m_Calls: []

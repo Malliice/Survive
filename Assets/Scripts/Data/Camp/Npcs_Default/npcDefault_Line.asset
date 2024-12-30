@@ -17,7 +17,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1a570c57338ae4049aa5ae1542071118, type: 2}
   baseDialoguePool:
   - {fileID: 11400000, guid: 04a2dc76a20eb954fb260953866f9989, type: 2}
-  - {fileID: 11400000, guid: 4fadc5645a43c3f418a2375483d01037, type: 2}
-  - {fileID: 11400000, guid: c5f6b0b117b679c4893ebde6fa9619d8, type: 2}
   activeDialoguePool: []
   usedDialoguePool: []
