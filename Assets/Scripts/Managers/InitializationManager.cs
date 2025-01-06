@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class InitializationManager : MonoBehaviour
 {
     public PlayerData playerData;
+    public GameManagerData gameData;
     public List<NpcData> activeNpcData;
     public List<NpcData> defaultNpcData;
     [SerializeField] private SurvivalWorldData survivalWorldData;
@@ -21,8 +22,10 @@ public class InitializationManager : MonoBehaviour
             return;
         }
 
-        DontDestroyOnLoad(gameObject);  
+        DontDestroyOnLoad(gameObject);
 
+        gameData.isWorldActive = true;
+        
         for (int i = 0; i < defaultNpcData.Count; i++)
         {
             activeNpcData[i].health = defaultNpcData[i].health;

@@ -343,6 +343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a501dc01fab1c41b5c2dfdef23cb62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameData: {fileID: 11400000, guid: a7282dba53b34da47b36ee3602e5375b, type: 2}
   dialogueScreen: {fileID: 8689301465113741853}
   txtDialogue: {fileID: 1335641140264774195}
   txtName: {fileID: 7579251814003197551}

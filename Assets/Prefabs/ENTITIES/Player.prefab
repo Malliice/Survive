@@ -375,12 +375,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerData: {fileID: 11400000, guid: de58f6c17c1c74f48a2fce90ea3b8058, type: 2}
+  gameData: {fileID: 11400000, guid: a7282dba53b34da47b36ee3602e5375b, type: 2}
   playerDeathEvent: {fileID: 11400000, guid: 6a002b39f3d352f4aae7259d89b6f276, type: 2}
   weaponDirection: {fileID: 625910549878031075}
   movementSpeed: 5
   interactionRadius: 1
   atkRadius: 1
   damage: 1
+  currentTool: 0
   knockbackStrength: 5
 --- !u!114 &8861550804930286862
 MonoBehaviour:

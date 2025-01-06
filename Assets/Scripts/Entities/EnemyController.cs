@@ -6,6 +6,9 @@ using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
+    [Header("References")]
+    [SerializeField] private GameManagerData gameData;
+    
     [Header("Stats")]
     [SerializeField] private int health;
     [SerializeField] private int dmg;
@@ -34,6 +37,16 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
+        //Block everything if game is not active
+        if (!gameData.isWorldActive)
+        {
+            navMeshAgent.isStopped = true;
+            rb.velocity = Vector3.zero;
+            return;
+        }
+
+        navMeshAgent.isStopped = false;
+        
         Collider[] cols = Physics.OverlapSphere(transform.position, detectionRadius);
         enemyState = EnemyState.NEUTRAL;
         foreach (var c in cols)

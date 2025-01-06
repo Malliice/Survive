@@ -7,11 +7,12 @@ public class PlayerController : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private PlayerData playerData;
+    [SerializeField] private GameManagerData gameData;
+    [SerializeField] private EventSO playerDeathEvent;
+    [SerializeField] private Transform weaponDirection;
     private Rigidbody rb;
     private PlayerInventoryController inventory;
     private Animator animator;
-    [SerializeField] private EventSO playerDeathEvent;
-    [SerializeField] private Transform weaponDirection;
     
     [Header("Stats")]
     [SerializeField] private float movementSpeed;
@@ -30,6 +31,10 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        //block everything if in dialogue or in pause
+        if(!gameData.isWorldActive)
+            return;
+        
         Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         rb.velocity = dir * movementSpeed;
 

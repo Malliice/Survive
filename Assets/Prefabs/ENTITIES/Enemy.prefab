@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84d983f11ce5ca447a590db4f7f46144, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameData: {fileID: 11400000, guid: a7282dba53b34da47b36ee3602e5375b, type: 2}
   health: 5
   dmg: 4
   detectionRadius: 6

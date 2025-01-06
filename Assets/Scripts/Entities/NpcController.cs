@@ -108,6 +108,7 @@ public class NpcController : MonoBehaviour
         if (npcData.affectionDialoguePool.Count <= 0)
             return;
         
+        //A changer dans le npc Data directement, on perdra cette stat en changeant de scène
         affection++;
         DialogueSO dialogueToAdd = npcData.affectionDialoguePool[0];
         npcData.affectionDialoguePool.RemoveAt(0);

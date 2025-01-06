@@ -8,6 +8,8 @@ using UnityEngine.UI;
 
 public class DialogueUiController : MonoBehaviour
 {
+    [SerializeField] private GameManagerData gameData;
+    
     [SerializeField] private GameObject dialogueScreen;
     [SerializeField] private TextMeshProUGUI txtDialogue;
     [SerializeField] private TextMeshProUGUI txtName;
@@ -33,14 +35,17 @@ public class DialogueUiController : MonoBehaviour
         //Activates the ui
         dialogueScreen.SetActive(true);
         dialogueActive = true;
+        gameData.isWorldActive = !dialogueActive;
     }
 
     private void Update()
     {
         if(currentDialogue == null)
             return;
+        if(currentStory == null)
+            return;
         
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             //If our dialogue counter is still under the dialogue's line total count we continue, or else we finish the dialogue
             if (currentStory.canContinue)
@@ -83,6 +88,8 @@ public class DialogueUiController : MonoBehaviour
         
         //We empty out the variables
         dialogueActive = false;
+        gameData.isWorldActive = !dialogueActive;
+        currentStory = null;
     }
 
     private int HandleSpeakerTag(List<string> currentTags)

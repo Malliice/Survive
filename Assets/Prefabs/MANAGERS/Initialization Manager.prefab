@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerData: {fileID: 11400000, guid: de58f6c17c1c74f48a2fce90ea3b8058, type: 2}
+  gameData: {fileID: 11400000, guid: a7282dba53b34da47b36ee3602e5375b, type: 2}
   activeNpcData:
   - {fileID: 11400000, guid: 78727f81a3dbf1241bf17f995d5fd043, type: 2}
   - {fileID: 11400000, guid: 1e5371e5a04f20d4398712878d155270, type: 2}
